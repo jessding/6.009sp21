@@ -1,0 +1,6 @@
+(:= y 10)
+y
+((function (z) (set! y (+ z y))) 9)
+y
+((function (z) (set! x (+ z y))) 9)
+x
